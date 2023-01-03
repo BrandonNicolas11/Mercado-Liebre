@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <title>Registro</title>
+</head>
+<body> 
+    <form action="/" method="Post">
+        <label for="nombre">Nombre y apellido:</label>
+        <input type="text" name="nombre y apellido" id="nombre">
+    
+        <label for="usuario">Nombre de usuari@:</label>
+        <input type="text" name="nombre usuario" id="usuario"> 
+    
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" name="nacimiento" id="nacimiento"> 
+    
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" name="domicilio" id="domicilio"> 
+    
+        <label for="perfil">Perfil del usuario:</label>
+        <select name="perfil">
+            <option value="comprar">Comprar</option>
+            <option value="vender">Vender</option>
+        </select>
+    
+        <label for="categorias">Categorías de interés</label>
+        <input type="checkbox" name="categorias" value="Electro"> Electro </input>
+        <input type="checkbox" name="categorias" value="Electro"> Moda </input>
+        <input type="checkbox" name="categorias" value="Electro"> Hogar </input>
+        <input type="checkbox" name="categorias" value="Electro"> Juguetería </input>
+        <input type="checkbox" name="categorias" value="Electro"> Vida Sana </input>
+    
+        <label>Foto de usuario </label>
+        <input type="file" name="avatar" accept=".jpg" multiple>
+    
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" name="contraseña" id="contraseña"> 
+    
+        <label for="confContraseña">Confirmar contraseña:</label>
+        <input type="password" name="contraseña" id="confContraseña"> 
+    
+        <button href="/" type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    
+    </form>
+    
+    
+    </body>
+    </html>
+    
